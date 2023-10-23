@@ -11,7 +11,8 @@ wget -P /data/ https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/f
 
 # PGR-tk version
 wget -P /data https://giab-data.s3.amazonaws.com/PGR-TK-Files/pgr-tk-HGRP-y1-evaluation-set-v0.tar
-tar xvf /data/pgr-tk-HGRP-y1-evaluation-set-v0.tar
+cd /data
+tar xvf pgr-tk-HGRP-y1-evaluation-set-v0.tar
 ```
 
 # Reference genomes
