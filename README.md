@@ -4,7 +4,7 @@ Notes for fresh ubuntu install:
 
 ```
 sudo apt-get update
-sudo apt-get install emacs unzip
+sudo apt-get install emacs unzip libgl1-mesa-glx
 
 sudo mkdir /data
 sudo chown -R ubuntu /data

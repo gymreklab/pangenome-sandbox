@@ -6,3 +6,8 @@ conda activate pgr-tk
 conda install -c bioconda -c conda-forge python_abi libstdcxx-ng=12 libclang13 pgr-tk=0.3.6
 conda install -c anaconda jupyter  
 ```
+
+# Bandage
+```
+conda install -c bioconda bandage
+```
